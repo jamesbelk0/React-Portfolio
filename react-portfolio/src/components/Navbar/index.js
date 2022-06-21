@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/white-black.png';
+import logo from '../../assets/images/white-black-logo.png';
 
 
 function Nav() {
 
     return (
         <nav>
-            <im src={ logo } alt='logo' />
+            <img src={ logo } width={200} height={200} alt='logo' />
             <ul>
                 {/* Home */}
                 <li>
