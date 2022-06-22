@@ -1,29 +1,29 @@
 import React from 'react';
-import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai'
+import { FaGithub, FaMailBulk, FaLinkedin } from 'react-icons/fa'
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import '../../App.css';
+ 
 
-function Footer() {
+function NavFooter() {
 
     return (
-        <footer>
-            <ul>
-                <li>
-                    <a href='https://github.com/jamesbelk0'>
-                        <img src={ AiOutlineGithub } alt='Github' />
-                    </a>
-                </li>
-                <li>
-                    <a href='mailto: jamesbelk0@gmail.com'>
-                        <img src={ AiOutlineMail } alt='Email' />
-                    </a>
-                </li>
-                <li>
-                    <a href='https://github.com/jamesbelk0'>
-                        <img src={ AiOutlineLinkedin } alt='LinkedIn' />
-                    </a>
-                </li>
-            </ul>
-        </footer>
+        <>
+        <Navbar bg="myblack"  sticky='bottom'>
+                <Container d-inline-block>
+                   <Navbar.Brand href="https://www.github.com/jamesbelk0">
+                    <img src={ FaGithub} width={30} height={30}  alt="Github" />
+                    </Navbar.Brand> 
+                    <Navbar.Brand href="mailto:jamesbelk0@gmail.com">
+                    <img src={ FaMailBulk} width={30} height={30}  alt="Email" />
+                    </Navbar.Brand> 
+                    <Navbar.Brand href="https://www.github.com/jamesbelk0">
+                    <img src={ FaLinkedin} width={30} height={30}  alt="Linkedin" />
+                    </Navbar.Brand> 
+                </Container>
+            </Navbar>
+        </>
     );
 }
 
-export default Footer;
+export default NavFooter;

@@ -23,7 +23,7 @@ function Projects() {
                         User created blog with login validation, comment section and custom inputs via the user.
                     </Card.Text>
                     <Card.Link href='https://boiling-fjord-93274.herokuapp.com/'></Card.Link>
-                    <Card.Link href='https://github.com/jamesbelk0/Show-Me-How'></Card.Link>
+                    <Card.Link href='https://www.github.com/jamesbelk0/Show-Me-How'></Card.Link>
                     <Card.Text>
                         Technolgies Used: Sequelize, Node.js, Handlebars
                     </Card.Text>
@@ -64,7 +64,7 @@ function Projects() {
                     </Card.Text>
                     <Button variant='outline-primary' href='https://obscure-coast-43625.herokuapp.com/'>Deployed App</Button>{' '}
                     <br />
-                    <Button variant='outline-primary' href='http://github/jamesbelk0/Budget-Tracker-PWA'></Button>{' '}
+                    <Button variant='outline-primary' href='http://www.github.com/jamesbelk0/Budget-Tracker-PWA'></Button>{' '}
                     <Card.Text>
                         Technolgies Used: MongoDb, Node.js, Heroku
                     </Card.Text>

@@ -1,38 +1,107 @@
-.App {
+/* Navigation Bar */
+.bg-myblack {
+  background-color: #19110B;
+}
+
+.links {
+  text-decoration: none;
+  color: #A8A4A6;
+  font-size: 30px;
+  font-weight: bold;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.links:hover {
+  box-shadow: inset 155px 0 0 0 #A8A4A6;
+  color: #19110B;
+}
+
+/* Hero */
+
+.hero{
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.heroHeader {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+  color: #541824;
+  font-size: 80px;
+  font-style: oblique;
+  text-shadow: 2px 2px black;
+}
+
+.heroPic {
+  padding: 20px 10px 10px 20px; 
+  width: 40%;
+}
+
+/* About Me */
+.myRedHeader {
+  color: #541824;
+  font-size: 80px;
+  font-style: oblique;
+  text-shadow: 2px 2px black;
+}
+
+.myRed {
+  color: #541824;
+  font-size: 20px;
+  font-style: oblique;
+  width: 100%;
+  padding: 15px 25px 10px;
+
+}
+
+.profilePic {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Resume */
+
+.myResume{
+  text-decoration: none;
+}
+
+/* Contact */
+.contact-headers{
+  text-align: center;
+  color:#541824;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight:bold;
+}
+
+.name{
+
+}
+
+.email{
+
+}
+
+.message{
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.button{
+  
+  color:#A8A4A6;
+  font-size: 20px;
+  border-radius: 4px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer */
+footer.bg-myBlack {
+  background-color: #19110B;
 }

@@ -4,9 +4,9 @@ function Resume() {
 
     return(
         <div>
-            <h1>Resume</h1>
+            <h1 className="myRedHeader">Resume</h1>
             <a href="https://docs.google.com/document/d/1M7IILNV1eWQxrLvA0u-pG2RqxvkTVPOMkmxAHwP6H3c/edit?usp=sharing" download="james-belk-resume">
-                <h2> Click to download my resume!</h2>
+                <h2 className="myResume"> Click to download my resume!</h2>
             </a>
             <h2>Skilled In:</h2>
             <ul>

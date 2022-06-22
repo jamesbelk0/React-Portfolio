@@ -1,50 +1,49 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/white-black-logo.png';
+import logo from '../../assets/images/black-grey-logo.png';
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import '../../App.css';
 
 
-function Nav() {
+function Navigation() {
 
     return (
-        <nav>
-            <img src={ logo } width={200} height={200} alt='logo' />
-            <ul>
-                {/* Home */}
-                <li>
-                    <Link to='/'
-                    className={({ isActive }) => (isActive ? "tab-active": "tab")}>
-                        Home
-                    </Link>
-                </li>
-                {/* About Me */}
-                <Link to='/aboutme'
-                className={({ isActive }) => (isActive ? "tab-active" : "tab")}>
-                    About Me
-                </Link>
-                {/* Projects */}
-                <li>
-                    <Link to='projects'
-                    className={({ isActive}) => (isActive ? "tab-active" : "tab")}>
-                        Portfolio
-                    </Link>
-                </li>
-                {/* Resume */}
-                <li>
-                    <Link to='resume'
-                    className={({ isActive}) => (isActive ? "tab-active" : "tab")}>
-                        Resume
-                    </Link>
-                </li>
-                {/* Contact */}
-                <li>
-                    <Link to='contact'
-                    className={({ isActive}) => (isActive ? "tab-active" : "tab")}>
-                        Contact
-                    </Link>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <Navbar bg="myblack" sticky='top' expand="lg" className="gap-3 px-3">
+                <Navbar.Brand href="/">
+                    <img src={logo}  height={100} alt='logo' />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Nav className="flex-grow-1 justify-content-evenly ">
+                    {/* About Me */}
+                    <Nav.Item>
+                        <Link to='/about' className="links">
+                            About Me
+                        </Link>
+                    </Nav.Item>
+                    {/* Projects */}
+                    <Nav.Item>
+                        <Link to='/projects' className="links">
+                            Portfolio
+                        </Link>
+                    </Nav.Item>
+                    {/* Resume */}
+                    <Nav.Item>
+                        <Link to='/resume' className="links">
+                            Resume
+                        </Link>
+                    </Nav.Item>
+                    {/* Contact */}
+                    <Nav.Item>
+                        <Link to='/contact' className="links">
+                            Contact
+                        </Link>
+                    </Nav.Item>
+                </Nav>
+            </Navbar>
+        </div>
     );
 }
 
-export default Nav;
+export default Navigation;
