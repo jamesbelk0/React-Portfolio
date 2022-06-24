@@ -18,7 +18,7 @@
 
 /* Hero */
 
-.hero{
+.hero {
   display: flex;
   align-items: center;
   padding: 30px;
@@ -32,11 +32,13 @@
   font-size: 80px;
   font-style: oblique;
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 .heroPic {
-  padding: 20px 10px 10px 20px; 
+  padding: 20px 10px 10px 20px;
   width: 40%;
+  border-radius: 40%;
 }
 
 /* About Me */
@@ -57,45 +59,88 @@
 }
 
 .profilePic {
-  width: 90%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border-radius: 40%
+}
+
+/* Projects */
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grid>div {
+  flex-basis: calc(33.33% - 40px);
+}
+
+.box {
+  background-color: #9B6A45;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  height: 35%;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.image-size {
+  margin: 15px;
+  height: 15rem;
+  width: 15rem;
 }
 
 /* Resume */
 
-.myResume{
+.myResume {
   text-decoration: none;
 }
 
+.resumePic {
+  padding: 20px 10px 10px 20px;
+  width: 40%;
+  border-radius: 40%;
+  height: 600px;
+}
+
 /* Contact */
-.contact-headers{
+
+.contact-form {}
+
+.contact-headers {
   text-align: center;
-  color:#541824;
+  color: #541824;
   font-size: 20px;
   font-style: oblique;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.name{
+.form-handler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
 
 }
 
-.email{
-
+.contact-input {
+  display: flex;
+  align-content: center;
+  width: 80%;
+  height: 30%;
+  justify-self: space-around;
+  margin-left: 10%;
 }
 
-.message{
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-.button{
-  
-  color:#A8A4A6;
+.button {
+  color: #A8A4A6;
   font-size: 20px;
   border-radius: 4px;
   text-align: center;
