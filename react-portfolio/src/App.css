@@ -83,18 +83,32 @@
   background-color: #9B6A45;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
-  height: 35%;
+  height: 30%;
   -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   margin: 20px;
   padding-left: 10px;
   text-align: center;
+  
 }
 
 .image-size {
   margin: 15px;
   height: 15rem;
   width: 15rem;
+}
+
+.mylink{
+  color: #541824;
+  font-size: 20px;
+  font-style: oblique;
+  width: 100%;
+  padding: 15px 25px 10px;
+  text-decoration: none;
+}
+.project-icon{
+  height: 10%;
+  width: 10%;
 }
 
 /* Resume */
@@ -104,14 +118,31 @@
 }
 
 .resumePic {
-  padding: 20px 10px 10px 20px;
-  width: 40%;
+  text-align:center;
+  width: 32rem;
   border-radius: 40%;
-  height: 600px;
+
+}
+
+.resumeImage{
+  display: block;
+  text-align:center;
+  padding-top: 2%;
+  width: 100%;
+  
+}
+.myResumeIcon{
+  display: flex;
+  flex-direction: row;
+  color:#541824;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: 100%;
+  
 }
 
 /* Contact */
-
 .contact-form {}
 
 .contact-headers {
@@ -149,4 +180,8 @@
 /* Footer */
 footer.bg-myBlack {
   background-color: #19110B;
+}
+
+.icons{
+  color:#A8A4A6;
 }

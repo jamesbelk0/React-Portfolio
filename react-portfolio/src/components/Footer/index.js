@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMailBulk, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaMailBulk, FaLinkedin } from 'react-icons/fa'
 import { Image, Navbar, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../App.css';
@@ -11,16 +11,16 @@ function NavFooter() {
 
     return (
         <>
-        <Navbar bg="myblack"  fixed='bottom' style={{paddingTop: 10}}>
+        <Navbar bg="myblack"  fixed='bottom' style={{paddingTop: 10, marginTop: 10}}>
                 <Container d-inline-block>
                    <Navbar.Brand href="https://www.github.com/jamesbelk0">
-                   <Image src={ FaMailBulk } width={30} height={30}  alt="Github" />
+                   <FaGithub className="icons" />
                     </Navbar.Brand> 
                     <Navbar.Brand href="mailto:jamesbelk0@gmail.com">
-                    <Image src={ FaMailBulk } width={30} height={30}  alt="Email" />
+                    <FaMailBulk className="icons" />
                     </Navbar.Brand> 
                     <Navbar.Brand href="https://www.github.com/jamesbelk0">
-                    <Image src={ FaLinkedin } width={30} height={30}  alt="Linkedin" />
+                    <FaLinkedin className="icons" />
                     </Navbar.Brand> 
                 </Container>
             </Navbar>
