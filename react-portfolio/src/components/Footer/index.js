@@ -11,15 +11,15 @@ function NavFooter() {
 
     return (
         <>
-        <Navbar bg="myblack"  fixed='bottom' style={{paddingTop: 10, marginTop: 10}}>
-                <Container d-inline-block>
-                   <Navbar.Brand href="https://www.github.com/jamesbelk0">
+        <Navbar bg="myblack"  fixed="bottom" className="footer-size">
+                <Container d-inline-block className="bg-myblack">
+                   <Navbar.Brand href="https://www.github.com/jamesbelk0" className="bg-myblack">
                    <FaGithub className="icons" />
                     </Navbar.Brand> 
-                    <Navbar.Brand href="mailto:jamesbelk0@gmail.com">
+                    <Navbar.Brand href="mailto:jamesbelk0@gmail.com" className="bg-myblack">
                     <FaMailBulk className="icons" />
                     </Navbar.Brand> 
-                    <Navbar.Brand href="https://www.github.com/jamesbelk0">
+                    <Navbar.Brand href="https://www.github.com/jamesbelk0" className="bg-myblack">
                     <FaLinkedin className="icons" />
                     </Navbar.Brand> 
                 </Container>

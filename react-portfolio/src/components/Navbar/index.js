@@ -15,7 +15,7 @@ function Navigation() {
                     <img src={logo}  height={100} alt='logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Nav className="flex-grow-1 justify-content-evenly ">
+                <Nav className="flex-grow-1 justify-content-evenly bg-myblack">
                     {/* About Me */}
                     <Nav.Item>
                         <Link to='/about' className="links">

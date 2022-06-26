@@ -52,17 +52,17 @@ function Projects() {
         return (
             <>
                 <div className="box">
-                    <a href={card.deploy}>
+                    <a href={card.deploy} className="myOrange">
                         <img src={card.image} className="image-size" />
                     </a>
-                    <h2 className="cardHeader">{card.title}</h2>
-                    <p className="myRed">{card.text}</p>
+                    <h2 className="cardHeader myOrange">{card.title}</h2>
+                    <p className="myRed myOrange">{card.text}</p>
                     <a href={card.github}>
                         <p className="mylink">
                             Link to Code: <FaGithub className="project-icon" />
                         </p>
                     </a>
-                    <p className="myRed">{card.tech}</p>
+                    <p className="myRed myOrange">{card.tech}</p>
                 </div>
             </>
         );
