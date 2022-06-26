@@ -11,7 +11,7 @@ function Navigation() {
     return (
         <div>
             <Navbar bg="myblack" sticky='top' expand="lg" className="gap-3 px-3">
-                <Navbar.Brand href="/hero">
+                <Navbar.Brand href="/React-Portfolio">
                     <img src={logo}  height={100} alt='logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
