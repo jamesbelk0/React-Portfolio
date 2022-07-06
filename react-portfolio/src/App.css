@@ -136,8 +136,6 @@
 .resumePic {
   text-align:center;
   width: 32rem;
-  border-radius: 40%;
-
 }
 
 .resumeImage{
@@ -151,8 +149,8 @@
   display: flex;
   flex-direction: row;
   color:#541824;
-  margin: 10px;
-  padding: 10px;
+  margin-top: 40px;
+  padding-bottom: 50px;
   justify-content: space-evenly;
   width: 100%;
   
@@ -206,6 +204,6 @@ footer.bg-myBlack {
 .footer-size{
   color: #19110B;
   position: absolute;
-  margin-bottom: 40;
+
   height: 2.5rem;
 }

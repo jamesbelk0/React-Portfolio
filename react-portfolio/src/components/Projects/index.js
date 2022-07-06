@@ -12,7 +12,7 @@ function Projects() {
             text: "User created blog with login validation, comment section and custom inputs via the user.",
             deploy: "https://boiling-fjord-93274.herokuapp.com/",
             github: "https://www.github.com/jamesbelk0/Show-Me-How",
-            tech: "Technolgies Used: Sequelize, Node.js, Handlebars"
+            tech: "Technologies Used: Sequelize, Node.js, Handlebars"
         },
         {
             image: require("../../assets/images/Budget-Tracker.png"),
@@ -20,7 +20,7 @@ function Projects() {
             text: "A budget tracker for the user on the road. Allows the user to use the app even while offline.",
             deploy: "https://obscure-coast-43625.herokuapp.com/",
             github: "http://www.github.com/jamesbelk0/Budget-Tracker-PWA",
-            tech: "Technolgies Used: MongoDb, Node.js, Heroku"
+            tech: "Technologies Used: MongoDb, Node.js, Heroku"
         },
         {
             image: require("../../assets/images/aperitif.png"),
@@ -28,7 +28,7 @@ function Projects() {
             text: "Simple app that allows the user to search for a bar by zip-code with any information needed to find the location. There is also a randomized dad joke generated each time you reload the page.",
             deploy: "https://jamesbelk0.github.io/Aperitif/",
             github: "http://github.com/jamesbelk0/Aperitif",
-            tech: "Technolgies Used: HTML, CSS, JavaScript(API)"
+            tech: "Technologies Used: HTML, CSS, JavaScript(API)"
         },
         {
             image: require("../../assets/images/employee-tracker.PNG"),
@@ -36,15 +36,15 @@ function Projects() {
             text: "Using MySQL create an employee tracker that can add, remove or update different variables that relate to a business.",
             github: "http://www.github.com/jamesbelk0/Employee-Tracker",
             deploy:"",
-            tech: "Technolgies Used:  Node.js, Express.js, Inquirer"
+            tech: "Technologies Used:  Node.js, Express.js, Inquirer"
         },
         {
-            image: require("../../assets/images/employee-tracker.PNG"),
-            title: "Book Search Engine",
-            text: "Using the full MERN Stack, create an app that allows a user to search for books, save their favorite (or remove them) for an easy to find experience.",
-            github: "http://www.github.com/jamesbelk0/Book-Search-Library",
+            image: require("../../assets/images/LetsGrow.PNG"),
+            title: "Let's Grow",
+            text: "Using the full MERN Stack, create an app that allows a user to search for a trainer to help with whatever their needs are!.",
+            github: "https://github.com/Karlyweatherstein/lets-grow",
             deploy: "Link to Deployed Application (TBD)",
-            tech: "Technolgies Used: GraphQL, React, MongoDB, Node.js/Express.js, Google Books API"
+            tech: "Technologies Used: GraphQL, React, MongoDB, Node.js/Express.js, CSS"
         }
     ];
 
