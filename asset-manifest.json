@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.28bc1c35.css",
-    "main.js": "/React-Portfolio/static/js/main.cf7c3497.js",
+    "main.css": "/React-Portfolio/static/css/main.3fcc2b4c.css",
+    "main.js": "/React-Portfolio/static/js/main.778f7117.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/showMehow.PNG": "/React-Portfolio/static/media/showMehow.8f6a9b5e11313c1613f9.PNG",
     "static/media/aperitif.png": "/React-Portfolio/static/media/aperitif.4e41967f2e9196f9aaa5.png",
@@ -10,14 +10,15 @@
     "static/media/profile.jpg": "/React-Portfolio/static/media/profile.e12f73c3f560379a8b97.jpg",
     "static/media/C-J.jpg": "/React-Portfolio/static/media/C-J.ab9cfe87e9dd6b029f6c.jpg",
     "static/media/black-grey-logo.png": "/React-Portfolio/static/media/black-grey-logo.edce7828ed8e6a120f58.png",
+    "static/media/LetsGrow.PNG": "/React-Portfolio/static/media/LetsGrow.70313a9b403d386cb9a5.PNG",
     "static/media/Budget-Tracker.png": "/React-Portfolio/static/media/Budget-Tracker.be96d1dc8631d8c2530a.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.28bc1c35.css.map": "/React-Portfolio/static/css/main.28bc1c35.css.map",
-    "main.cf7c3497.js.map": "/React-Portfolio/static/js/main.cf7c3497.js.map",
+    "main.3fcc2b4c.css.map": "/React-Portfolio/static/css/main.3fcc2b4c.css.map",
+    "main.778f7117.js.map": "/React-Portfolio/static/js/main.778f7117.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28bc1c35.css",
-    "static/js/main.cf7c3497.js"
+    "static/css/main.3fcc2b4c.css",
+    "static/js/main.778f7117.js"
   ]
 }
