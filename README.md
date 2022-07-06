@@ -34,7 +34,7 @@
 ## Link to Code
 - https://github.com/jamesbelk0/React-Portfolio
 
-## Link to Deployed Site (Heroku)
+## Link to Deployed Site (GitHub Pages)
 - https://jamesbelk0.github.io/React-Portfolio/
 
 ## Description
