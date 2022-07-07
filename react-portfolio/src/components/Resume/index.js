@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/images/resume.PNG';
+import resume from '../../assets/images/ResumeJuly';
 import { DiMongodb, DiMysql, DiReact, DiHtml5, DiCss3, DiJsBadge, DiNodejs } from 'react-icons/di';
 import { GrGraphQl } from "react-icons/gr";
 function Resume() {
