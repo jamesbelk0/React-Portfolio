@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/images/ResumeJuly';
+import resume from '../../assets/images/ResumeJuly.pdf';
 import { DiMongodb, DiMysql, DiReact, DiHtml5, DiCss3, DiJsBadge, DiNodejs } from 'react-icons/di';
 import { GrGraphQl } from "react-icons/gr";
 function Resume() {
@@ -12,9 +12,7 @@ function Resume() {
                 <h2> Click to download my resume!</h2>
             </a>
 
-            <div className="resumeImage" >
-                <img src={resume} alt='profile pic' className="resumePic" />
-            </div>
+            
 
             <div className="hero">
                 <h2 className="heroHeader text-center">Skilled In:</h2>

@@ -59,7 +59,7 @@ function Projects() {
                     <p className="myRed myOrange">{card.text}</p>
                     <a href={card.github}>
                         <p className="mylink">
-                            Link to Code: <FaGithub className="project-icon" />
+                        <FaGithub className="project-icon" />
                         </p>
                     </a>
                     <p className="myRed myOrange">{card.tech}</p>
